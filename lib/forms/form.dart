@@ -117,6 +117,9 @@ class _LoginFormState extends State<LoginForm> {
                           spacing: 5,
                           children: <Widget>[
                             TextFormField(
+                              style: TextStyle(
+                                fontSize: isMobile ? 14 : 16,
+                              ),
                               decoration: InputDecoration(
                                 prefixIcon: Icon(
                                   Icons.person,
@@ -125,7 +128,8 @@ class _LoginFormState extends State<LoginForm> {
                                 fillColor: Colors.grey[100],
                                 filled: true,
                                 hintStyle: TextStyle(
-                                    color: Colors.black54, fontSize: 16),
+                                    color: Colors.black54,
+                                    fontSize: isMobile ? 14 : 16),
                                 hintText: 'username',
                                 border: OutlineInputBorder(
                                   borderSide: BorderSide.none,
@@ -151,6 +155,7 @@ class _LoginFormState extends State<LoginForm> {
                             const SizedBox(height: 10),
                             //Password
                             TextFormField(
+                              style: TextStyle(fontSize: isMobile ? 14 : 16),
                               obscureText: isHidden,
                               decoration: InputDecoration(
                                 prefixIcon: Icon(
@@ -175,7 +180,8 @@ class _LoginFormState extends State<LoginForm> {
 
                                 //  errorText: errMessage,
                                 hintStyle: TextStyle(
-                                    color: Colors.black54, fontSize: 16),
+                                    color: Colors.black54,
+                                    fontSize: isMobile ? 14 : 16),
                                 hintText: 'password',
                                 border: OutlineInputBorder(
                                   borderSide: BorderSide.none,
@@ -412,6 +418,9 @@ class _RegistrationFormState extends State<RegistrationForm> {
                           spacing: 5,
                           children: <Widget>[
                             TextFormField(
+                              style: TextStyle(
+                                fontSize: isMobile ? 14 : 16,
+                              ),
                               decoration: InputDecoration(
                                 prefixIcon: Icon(
                                   Icons.person,
@@ -420,7 +429,8 @@ class _RegistrationFormState extends State<RegistrationForm> {
                                 fillColor: Colors.grey[100],
                                 filled: true,
                                 hintStyle: TextStyle(
-                                    color: Colors.black54, fontSize: 16),
+                                    color: Colors.black54,
+                                    fontSize: isMobile ? 14 : 16),
                                 hintText: 'your name',
                                 border: OutlineInputBorder(
                                   borderSide: BorderSide.none,
@@ -447,6 +457,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
 
                             //Email
                             TextFormField(
+                              style: TextStyle(fontSize: isMobile ? 14 : 16),
                               decoration: InputDecoration(
                                 errorText: _errEmailMsg,
                                 prefixIcon: Icon(
@@ -456,7 +467,8 @@ class _RegistrationFormState extends State<RegistrationForm> {
                                 fillColor: Colors.grey[100],
                                 filled: true,
                                 hintStyle: TextStyle(
-                                    color: Colors.black54, fontSize: 16),
+                                    color: Colors.black54,
+                                    fontSize: isMobile ? 14 : 16),
                                 hintText: 'email',
                                 border: OutlineInputBorder(
                                   borderSide: BorderSide.none,
@@ -483,6 +495,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
 
                             //Password
                             TextFormField(
+                              style: TextStyle(fontSize: isMobile ? 14 : 16),
                               obscureText: isHidden,
                               decoration: InputDecoration(
                                 errorText: _errPwdMsg,
@@ -508,7 +521,8 @@ class _RegistrationFormState extends State<RegistrationForm> {
 
                                 //  errorText: errMessage,
                                 hintStyle: TextStyle(
-                                    color: Colors.black54, fontSize: 16),
+                                    color: Colors.black54,
+                                    fontSize: isMobile ? 14 : 16),
                                 hintText: 'password',
                                 border: OutlineInputBorder(
                                   borderSide: BorderSide.none,
@@ -535,6 +549,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
 
                             //Confirm Password
                             TextFormField(
+                              style: TextStyle(fontSize: isMobile ? 14 : 16),
                               obscureText: isHidden,
                               decoration: InputDecoration(
                                 errorText: _errPwdMsg,
@@ -560,7 +575,8 @@ class _RegistrationFormState extends State<RegistrationForm> {
 
                                 //  errorText: errMessage,
                                 hintStyle: TextStyle(
-                                    color: Colors.black54, fontSize: 16),
+                                    color: Colors.black54,
+                                    fontSize: isMobile ? 14 : 16),
                                 hintText: 'confirm password',
                                 border: OutlineInputBorder(
                                   borderSide: BorderSide.none,
