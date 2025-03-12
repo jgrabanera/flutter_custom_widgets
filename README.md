@@ -2,8 +2,8 @@
 Flutter custom widgets
 
 
-¹ Login Form
-¹ Registration Form
+✔ Login Form
+✔ Registration Form
 
-¹ Button with Icon
-¹ Loading indicator on Button submit
+✔ Button with Icon
+✔ Loading indicator on Button submit
